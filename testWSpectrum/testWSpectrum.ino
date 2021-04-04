@@ -6,7 +6,7 @@
 #include <FastLED.h>
 
 #define NUM_LEDS 300
-#define DATA_PIN 5
+#define DATA_PIN 12
 
 uint8_t bins[512] = {0};
 

@@ -1,0 +1,3 @@
+ws2812_led.c:218:13:fill_dma_buffer	36	static,ignoring_inline_asm
+ws2812_led.c:280:6:ws2812_refresh	48	static
+ws2812_led.c:399:6:ws2812_init	72	static

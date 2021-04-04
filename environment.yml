@@ -1,0 +1,11 @@
+name: WSpectrum
+channels:
+  - defaults
+dependencies:
+  - spyder
+  - matplotlib
+  - python=3.6
+  - pyaudio
+  - pyserial
+  - scipy
+prefix: C:\Users\justRandom\anaconda3\envs\WSpectrum

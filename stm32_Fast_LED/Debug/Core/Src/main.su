@@ -1,0 +1,4 @@
+main.c:73:5:serialLed	40	static,ignoring_inline_asm
+main.c:228:6:SystemClock_Config	96	static
+main.c:172:5:main	80	static
+main.c:436:6:Error_Handler	0	static
