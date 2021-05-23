@@ -15,7 +15,7 @@ import serial
 import time
 import wave
 
-ser = serial.Serial('COM10', baudrate=115200, timeout=0)
+
 
 # initialize portaudio
 p = pyaudio.PyAudio()
@@ -40,7 +40,7 @@ def getAudio(chunksize):
     data = stream.read(chunksize)
     return np.frombuffer(data, dtype=np.int16)
 
-   
+ser = serial.Serial('COM10', baudrate=115200, timeout=0)   
 
 amplification = 90
 fadeFactor = 0.6
